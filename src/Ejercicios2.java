@@ -14,7 +14,7 @@ public class Ejercicios2 {
 
 		if (a == n + m) {
 			segundoConjunto.add(num);
-			System.out.print("Segunda coleccion" + segundoConjunto);
+			System.out.println("Segunda coleccion" + segundoConjunto);
 
 		} else {
 			if (a <= n) {
@@ -61,16 +61,18 @@ public class Ejercicios2 {
 			System.out.print("> ");
 			num = s.nextInt();
 			a++;
-			leerConjunto(num);
 			System.out.println("Primera Coleccion posicion " + a);
+			leerConjunto(num);
+			
 		}
 		for (int j = 0; j < m; j++) {
 
 			System.out.print("> ");
 			num = s.nextInt();
 			a++;
-			leerConjunto(num);
 			System.out.println("Segunda Coleccion posicion " + a);
+			leerConjunto(num);
+			
 
 		}
 
